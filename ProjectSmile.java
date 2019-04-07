@@ -74,7 +74,7 @@ public class ProjectSmile {
             }
             
             //take a break message
-            if(dtf.format(now).equals("00:12:00"))
+            if(dtf.format(now).equals("11:59:00"))
             {
                 mesIndex = (int)(Math.random()*37+16);
                 JOptionPane.showMessageDialog(null, messages.get(mesIndex), "Project Smile", JOptionPane.PLAIN_MESSAGE);
